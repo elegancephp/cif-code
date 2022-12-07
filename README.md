@@ -9,7 +9,7 @@ Aplica cifra e codificação em strings
 ### [Documentação](https://github.com/elegancephp/cif-code/tree/main/.doc)
 
  - [helper](https://github.com/elegancephp/cif-code/tree/main/.doc/helper)
-    - [env](https://github.com/elegancephp/cif-code/tree/main/.doc/helper/env.md)
+    - [config](https://github.com/elegancephp/cif-code/tree/main/.doc/helper/config.md)
  - [cif](https://github.com/elegancephp/cif-code/tree/main/.doc/cif.md)
  - [code](https://github.com/elegancephp/cif-code/tree/main/.doc/code.md)
  

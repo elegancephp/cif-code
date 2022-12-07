@@ -1,4 +1,4 @@
-### Helper Env
+### Helper config
 
 **PATH_CIF**: Diretório onde se encontram os arquivos de certificado de cifra
 
