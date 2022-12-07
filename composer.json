@@ -1,0 +1,22 @@
+{
+    "name": "elegance/cif-code",
+    "description": "Aplica cifra e codificação em strings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": []
+    },
+    "require": {
+        "elegance/core": "dev-main",
+        "elegance/mxcmd": "dev-main"
+    },
+    "minimum-stability": "dev"
+}
