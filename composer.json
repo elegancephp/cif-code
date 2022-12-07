@@ -12,7 +12,9 @@
         "psr-4": {
             "": "class/"
         },
-        "files": []
+        "files": [
+            "helper/script/env.php"
+        ]
     },
     "require": {
         "elegance/core": "dev-main",
