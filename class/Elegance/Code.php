@@ -21,8 +21,8 @@ abstract class Code
         return self::instance()->off(...func_get_args());
     }
 
-    /** Verifica se uma string é uma string codificada */
-    static function check(string $string): bool
+    /** Verifica se uma variavel é uma string codificada */
+    static function check(mixed $var): bool
     {
         return self::instance()->check(...func_get_args());
     }

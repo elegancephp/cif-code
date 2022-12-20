@@ -26,9 +26,9 @@ Retonra o MD5 usado para gerar uma string codificada
 
     Code::off(string $string): string
 
-Verifica se uma string é uma string codificada
+Verifica se uma variavel é uma string codificada
 
-    Code::check(string $string): bool
+    Code::check(mixed $var): bool
 
 Verifica se duas strings tem a mesma string codificada
 

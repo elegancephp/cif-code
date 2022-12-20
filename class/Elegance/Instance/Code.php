@@ -62,14 +62,15 @@ class Code
         return $string;
     }
 
-    /** Verifica se uma string é uma string codificada */
-    function check(string $string): bool
+    /** Verifica se uma variavel é uma string codificada */
+    function check(mixed $var): bool
     {
         return boolval(
-            strlen($string) == 34 &&
-                substr($string, 0, 1) == $this->preKey &&
-                substr($string, -1) == $this->posKey &&
-                empty(str_replace($this->key, '', substr($string, 1, -1)))
+            is_string($var) &&
+                strlen($var) == 34 &&
+                substr($var, 0, 1) == $this->preKey &&
+                substr($var, -1) == $this->posKey &&
+                empty(str_replace($this->key, '', substr($var, 1, -1)))
         );
     }
 
