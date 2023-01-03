@@ -2,7 +2,7 @@
 
 namespace Elegance\Instance;
 
-class Code
+class InstanceCode
 {
     protected string $strKey;
     protected string $preKey;

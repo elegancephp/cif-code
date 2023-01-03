@@ -2,7 +2,7 @@
 
 namespace Elegance;
 
-use Elegance\Instance\Cif as InstanceCif;
+use Elegance\Instance\InstanceCif;
 
 abstract class Cif
 {

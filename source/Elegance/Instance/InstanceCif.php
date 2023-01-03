@@ -6,7 +6,7 @@ use Elegance\File;
 use Elegance\Import;
 use Error;
 
-class Cif
+class InstanceCif
 {
     protected array $cif;
     protected array $ensure;

@@ -39,7 +39,7 @@ Verifica se duas strings tem a mesma string codificada
 Utilize instancias de Code para compatibilidade com outros projetos que não compartilham a mesma chave. 
 Defina a chave que a instancia deve utilizar no parametro **$key**
 
-    $code = new \Elegance\Instance\Code($key);
+    $code = new \Elegance\Instance\InstanceCode($key);
 
 Retorna o codigo de uma string
 

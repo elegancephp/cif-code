@@ -2,7 +2,7 @@
 
 namespace Elegance;
 
-use Elegance\Instance\Code as InstanceCode;
+use Elegance\Instance\InstanceCode;
 
 abstract class Code
 {

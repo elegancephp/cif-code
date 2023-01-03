@@ -51,7 +51,7 @@ Defina o certificado que a instancia deve utilizar no parametro **$certificate**
 
 > O arquivo de certificado deve estar dentro da pasta **.library/certificate** e ter a extensão **.crt**
 
-    $cif = new \Elegance\Instance\Cif($certificate);
+    $cif = new \Elegance\Instance\InstanceCif($certificate);
 
 Retorna a cifra de uma string
     
