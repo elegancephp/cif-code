@@ -10,13 +10,13 @@ Aplica e remove cifra em strings
 
 Para criar um arquivo de certificado em seu projeto
 
-    php mx crete.cif meuCertificado
+    php mx cif nomeDoCertificado
 
 > Todos os certifiados de cifra, devem estar em **library/certificate**
 
 Para utilizar este certificado em seu projeto, adicione a linha em seu .env
 
-    CIF_FILE=meuCertificado
+    CIF_FILE=nomeDoCertificado
 
 
 ### Utilizando a classe estatica

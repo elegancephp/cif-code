@@ -1,9 +1,9 @@
 <?php
 
-namespace Terminal\Create;
+namespace Terminal;
 
 use Elegance\File;
-use Elegance\Instance\Cif;
+use Elegance\Instance\InstanceCif;
 use Elegance\MxCmd;
 use Exception;
 
@@ -22,7 +22,7 @@ abstract class MxCif extends MxCmd
         if (File::check($fileName))
             throw new Exception("Certificado [$name] já existe");
 
-        $allowChar = Cif::BASE;
+        $allowChar = InstanceCif::BASE;
 
         $content = [];
         while (count($content) < 63) {
